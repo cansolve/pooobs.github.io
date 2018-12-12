@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cansolve.cn/"/>
-  <updated>2018-12-11T11:38:22.000Z</updated>
+  <updated>2018-12-12T06:00:48.000Z</updated>
   <id>http://www.cansolve.cn/</id>
   
   <author>
@@ -17,32 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>用Hexo + github搭建自己的博客</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily9/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily9/</id>
-    <published>2018-12-10T11:25:46.000Z</published>
-    <updated>2018-12-11T11:38:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h1><p>这是我第一次写这种类型的博客，也不叫什么博客，纯粹个人一些踩坑过程罢了，原先弄的前后端分离的开发流程想想太复杂，一个博客页面没啥必要，主要还是记录自己的一些心得，内容比较重要。话不多说，开搞！！！</p><h2 id="基于node和git"><a href="#基于node和git" class="headerlink" title="基于node和git"></a>基于node和git</h2><p>安装<a href="http://nodejs.cn/" target="_blank" rel="noopener">node.js</a>和<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a><br>这个就不多说了，贴个地址</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a><strong>快速开始</strong></h2><p>1、找个文件夹下打开终端,输入</p><pre><code>hexo i blogName //blog是项目名cd blogName //切换到站点根目录hexo g //generetor的缩写hexo s //server的缩写</code></pre><p>2 打开浏览器输入localhost:4000查看：<br>    <img src="http://imgs.cansolve.cn/20161115143629057.jpg" alt="local" title="localhost:4000"></p><p>看到这个样子就说明成功了，这个就是hexo默认的博客主题。现在你已经可以在这个主题下写博客了。<br>你还可以选择博客的主题<a href="https://hexo.io/themes/" target="_blank" rel="noopener">theme</a></p><h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a><strong>选择主题</strong></h2><p>我选的是Claudia</p><p>1 . 在站点根目录输入</p><pre><code>git clone https://github.com/Haojen/hexo-theme-Claudia.git</code></pre><p>2 . 完成后，打开根目录下的 _config.yml 文件， 找到 theme 字段，把landscape改为 Claudia<br>    <img src="http://imgs.cansolve.cn/2018112110001.png" alt="theme" title="theme"></p><p>3 . 在终端输入</p><pre><code>hexo clean  //清除缓存hexo g  //重新生成代码hexo s  //部署到本地//然后打开浏览器访问 localhost:4000 查看效果</code></pre><p><img src="http://imgs.cansolve.cn/201812110002.png" alt="theme" title="theme"><br>这时候主题已经换了，主题里面的修改项自行查阅一下，很多都有注释</p><h2 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a><strong>上传到github</strong></h2><p>没有github账号的，自行注册一个【很少人没有吧】</p><p><img src="http://imgs.cansolve.cn/201812110003.png" alt="theme" title="theme"><br>完了继续下一步选择一个主题</p><p><img src="http://imgs.cansolve.cn/201812110004.jpg" alt="theme" title="theme"><br>结束访问 xxxxx.github.io  会看到上面一样的页面</p><p>修改文件<br><img src="http://imgs.cansolve.cn/201812110005.png" alt="theme" title="theme"></p><pre><code>注意！！！冒号的后面一定一定一定要有一个空格！！</code></pre><p>开始部署</p><pre><code>npm install hexo-deployer-git --save//先装个插件hexo d  //  部署的命令</code></pre><p>网上有的教程说需要账号密码，我这边没遇到，所以就不方便截图了</p><h2 id="发布第一篇博客"><a href="#发布第一篇博客" class="headerlink" title="发布第一篇博客"></a><strong>发布第一篇博客</strong></h2><p>根目录下输入 ：</p><pre><code>hexo new &quot;postName&quot;//hexo n 也可以 //你自己的博客名称，名为postName.md的文件会建在目//录/blog/source/_posts下。</code></pre><p>文章编辑完成后，终端在根目录文件夹下，执行如下命令来发布:</p><pre><code>hexo g //生成静态页面，类似于打个包hexo d //发布</code></pre><p>这样就可以发布咯</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;这是我第一次写这种类型的博客，也不叫什么博客，纯粹个人一些踩坑过程罢了，原先弄的前后端分离的开发流程想想太
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>daily8</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily8/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily8/</id>
+    <link href="http://www.cansolve.cn/2018/12/10/daily2/"/>
+    <id>http://www.cansolve.cn/2018/12/10/daily2/</id>
     <published>2018-12-10T09:28:29.000Z</published>
-    <updated>2018-12-12T02:11:41.000Z</updated>
+    <updated>2018-12-12T06:00:48.000Z</updated>
     
     <content type="html"><![CDATA[<p>前言—<br>每次写博客之前都喜欢做一些科普啊巴拉巴拉的，写之前还想分析一波Hexo和jekyll，掰扯掰扯github，漫谈一下gitblog啥的。讲道理，我这个人比较浮躁，写那些乱七八糟的知识简直就是折磨，所以这次—不写了！！直接开搞。有啥问题别找我。</p><p>用Hexo在本地搭建一个博客<br>安装Hexo<br>安装nodejs</p><p><a href="http://nodejs.cn/" target="_blank" rel="noopener">http://nodejs.cn/</a> 丢个链接自己装，傻瓜式安装</p><p>安装git</p><p><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a> 安装毫无技术含量</p><p>使用npm安装Hexo</p><p>   npm install -g hexo-cli<br>  //一键搞定<br>1<br>2<br>1<br>2<br>快速开始<br>1 随便找个文件夹下打开终端,输入</p><pre><code>hexo i blog //init的缩写 blog是项目名cd blog //切换到站点根目录hexo g //generetor的缩写hexo s //server的缩写</code></pre><p>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>2 打开浏览器输入localhost:4000查看：</p>]]></content>
     
@@ -62,122 +41,25 @@
   </entry>
   
   <entry>
-    <title>daily7</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily7/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily7/</id>
-    <published>2018-12-10T09:27:43.000Z</published>
-    <updated>2018-12-10T09:27:43.000Z</updated>
+    <title>用Hexo + github搭建自己的博客</title>
+    <link href="http://www.cansolve.cn/2018/11/02/daily1/"/>
+    <id>http://www.cansolve.cn/2018/11/02/daily1/</id>
+    <published>2018-11-02T11:25:46.000Z</published>
+    <updated>2018-12-12T06:00:44.000Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>前端日报</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily6/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily6/</id>
-    <published>2018-12-10T07:06:21.000Z</published>
-    <updated>2018-12-10T08:23:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Claudia"><a href="#Claudia" class="headerlink" title="Claudia"></a>Claudia</h1><p><a href="https://haojen.github.io/Claudia-theme-blog/" target="_blank" rel="noopener">点我查看项目演示</a></p><p><img src="http://imgs.cansolve.cn/bg1.jpg" alt="cover"></p><h2 id="Use-使用"><a href="#Use-使用" class="headerlink" title="Use (使用)"></a>Use (使用)</h2><h3 id="Enable-comments-使用评论系统"><a href="#Enable-comments-使用评论系统" class="headerlink" title="Enable comments (使用评论系统)"></a>Enable comments (使用评论系统)</h3><blockquote><p>在本主题的<code>_config.yml</code>配置文件</p></blockquote><h2 id="livere-来比力"><a href="#livere-来比力" class="headerlink" title="livere (来比力)"></a>livere (来比力)</h2><pre><code>use_livere: truelivere_uid: 你注册的来比力 uid</code></pre><h2 id="Disqus"><a href="#Disqus" class="headerlink" title="Disqus"></a>Disqus</h2><pre><code>use_disqus: truedisqus_url: 你的 Disqus 链接</code></pre><h3 id="Config-Post-the-cover-配置博文封面图"><a href="#Config-Post-the-cover-配置博文封面图" class="headerlink" title="Config Post the cover (配置博文封面图)"></a>Config Post the cover (配置博文封面图)</h3><p>将 img 的 <code>alt</code> 属性设置为 <code>post-cover</code> 即可<br>Sets the img <code>Alt</code> attributes to <code>post - cover</code></p><h3 id="Configure-the-upper-right-navigation-bar-menu-item-配置右上角导航栏菜单项"><a href="#Configure-the-upper-right-navigation-bar-menu-item-配置右上角导航栏菜单项" class="headerlink" title="Configure the upper-right navigation bar menu item (配置右上角导航栏菜单项)"></a>Configure the upper-right navigation bar menu item (配置右上角导航栏菜单项)</h3><p>注意: 必须在主题的 <code>_config.yml</code> 中配置以下信息, 而非博客根目录下的 <code>_config.yml</code><br>Note: must be in the theme of <code>_config. Yml</code> configured in the following information, rather than the blog root directory <code>_config. Yml</code></p><pre><code>menu:  Home: / #页面所在的路径  My Works: /works  About: /about  #Tags: /tags</code></pre><h2 id="Config-user-info-用户信息配置"><a href="#Config-user-info-用户信息配置" class="headerlink" title="Config user info (用户信息配置)"></a>Config user info (用户信息配置)</h2><p>Note: must be in the theme of <code>_config. Yml</code> configured in the following information, rather than the blog root directory <code>_config. Yml</code><br>注意: 必须在主题的 <code>_config.yml</code> 中配置以下信息, 而非博客根目录下的 <code>_config.yml</code></p><pre><code>user_name: your nameuser_avatar: your avataruser_location: your locationuser_description: about you introduction// this info will show About pageuser_contact: user_introduction// config you share infoweibo_username: zhihu_username: github_username:twitter_username: facebook_username: linkedin_username: </code></pre><h2 id="Code-highlighting-配置代码高亮"><a href="#Code-highlighting-配置代码高亮" class="headerlink" title="Code highlighting (配置代码高亮)"></a>Code highlighting (配置代码高亮)</h2><p>在theme主题目录下, 可以通过 <code>_config.yml</code> 文件(注意不是hexo根目录), 配置代码高亮的style, 步骤如下:<br>首先在您的hexo根目录下 <code>_config.yml</code> , 关闭内置的着色器:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">highlight:</span><br><span class="line">  enable: false</span><br><span class="line">  line_number: false</span><br><span class="line">  auto_detect: false</span><br><span class="line">  tab_replace: false</span><br></pre></td></tr></table></figure></p><p>然后在主题的 <code>_config.yml</code> 中配置 <code>block_highlight</code> 字段, 例如:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">block_highlight: highlight_rainbow</span><br></pre></td></tr></table></figure></p><p>目前提供一下几种选择, 并且一旦您关闭内嵌的风格, 最好要选一种:</p><ul><li>highlight_default</li><li>highlight_light</li><li>highlight_github</li><li>highlight_rainbow</li><li>highlight_vs</li><li>highlight_atom</li></ul><h2 id="创建-About-页面"><a href="#创建-About-页面" class="headerlink" title="创建 About 页面"></a>创建 About 页面</h2><p>在博客根目录下的 <code>source</code> 文件夹里创建一个 <code>about</code> 文件夹, 然后打开该文件夹, 新建一个 <code>index.md</code>, 打开, 将下面这段文本复制到 <code>index.md</code> 里保存</p><pre><code>title: aboutdate: 2017-05-31 10:05:56layout: about---</code></pre><h2 id="创建-Works-页面"><a href="#创建-Works-页面" class="headerlink" title="创建 Works 页面"></a>创建 Works 页面</h2><p>创建的方式和上述创建 About 页面相同, 只不过是 <code>index.md</code> 内容略有不同, works 页面的 <code>index.md</code> 如下:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: My Works</span><br><span class="line">date: 2017-05-31 10:05:56</span><br><span class="line">layout: works</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>然后再在博客根目录下的 <code>source</code> 文件夹下创建一个 <code>_data</code> 文件夹, 然后打开, 在里面新建一个 <code>project.json</code> 文件</p><p>project.json 文件格式范本:</p><pre><code>{  &quot;Apple 官网临摹&quot;: {    &quot;title&quot;: &quot;Apple 官网临摹&quot;,    &quot;subTitle&quot;: &quot;根据美版apple官网临摹&quot;,    &quot;img_link&quot;: &quot;http://o7bkkhiex.bkt.clouddn.com/item-apple.jpg&quot;,    &quot;use&quot; : [&quot;jQuery&quot;],    &quot;link&quot;: &quot;http://haojen.github.io/apple-linmo/&quot;,    &quot;data&quot;:&quot;2016.3&quot;,    &quot;direction&quot;: &quot;临摹 2016 年三月份 Apple 美版单页面。&quot;  },   &quot;Anisina (阿尼丝娜)&quot;: {    &quot;title&quot;: &quot;Anisina&quot;,    &quot;subTitle&quot;: &quot;基于 Hexo 制作的个人博客主题&quot;,    &quot;img_link&quot;: &quot;http://o7bkkhiex.bkt.clouddn.com/Anisina.png&quot;,    &quot;use&quot; : [&quot;jQuery&quot;,&quot;Bootstrap&quot;,&quot;Node.js&quot;,&quot;EJS&quot;,&quot;Hexo&quot;,&quot;SASS&quot;],    &quot;link&quot;: &quot;http://haojen.github.io/&quot;,    &quot;data&quot;: &quot;2016.5&quot;,    &quot;direction&quot;:        &quot;Hexo 是某位台湾友人基于 Node.js 编写的博客框架&quot;  }}</code></pre><h2 id="功能配置"><a href="#功能配置" class="headerlink" title="功能配置"></a>功能配置</h2><p>可以依次在主题的根目录中执行终端命令, 根据自身需求分别安装依赖</p><pre><code>// 流程图功能npm install hexo-filter-flowchart --save// Emojinpm install hexo-filter-github-emojis --save// 搜索功能npm install hexo-generator-search --save// 数学公式npm install hexo-renderer-mathjax --save</code></pre><p>具体的使用教程, 请参阅 <a href="https://haojen.github.io/Claudia-theme-blog/" target="_blank" rel="noopener">博客中对应的文章</a>    </p><h2 id="💙-最后"><a href="#💙-最后" class="headerlink" title="💙 最后"></a>💙 最后</h2><p>如果遇到任何问题, 可以提交 issue , 你的反馈对我很重要!<br>另外,喜欢的话不妨给个 Star 😍</p><h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT © <a href="http://haojen.github.io" target="_blank" rel="noopener">haojen ma</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h1><p>这是我第一次写这种类型的博客，也不叫什么博客，纯粹个人一些踩坑过程罢了，原先弄的前后端分离的开发流程想想太复杂，一个博客页面没啥必要，主要还是记录自己的一些心得，内容比较重要。话不多说，开搞！！！</p><h2 id="基于node和git"><a href="#基于node和git" class="headerlink" title="基于node和git"></a>基于node和git</h2><p>安装<a href="http://nodejs.cn/" target="_blank" rel="noopener">node.js</a>和<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a><br>这个就不多说了，贴个地址</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a><strong>快速开始</strong></h2><p>1、找个文件夹下打开终端,输入</p><pre><code>hexo i blogName //blog是项目名cd blogName //切换到站点根目录hexo g //generetor的缩写hexo s //server的缩写</code></pre><p>2 打开浏览器输入localhost:4000查看：<br>    <img src="http://imgs.cansolve.cn/20161115143629057.jpg" alt="local" title="localhost:4000"></p><p>看到这个样子就说明成功了，这个就是hexo默认的博客主题。现在你已经可以在这个主题下写博客了。<br>你还可以选择博客的主题<a href="https://hexo.io/themes/" target="_blank" rel="noopener">theme</a></p><h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a><strong>选择主题</strong></h2><p>我选的是Claudia</p><p>1 . 在站点根目录输入</p><pre><code>git clone https://github.com/Haojen/hexo-theme-Claudia.git</code></pre><p>2 . 完成后，打开根目录下的 _config.yml 文件， 找到 theme 字段，把landscape改为 Claudia<br>    <img src="http://imgs.cansolve.cn/2018112110001.png" alt="theme" title="theme"></p><p>3 . 在终端输入</p><pre><code>hexo clean  //清除缓存hexo g  //重新生成代码hexo s  //部署到本地//然后打开浏览器访问 localhost:4000 查看效果</code></pre><p><img src="http://imgs.cansolve.cn/201812110002.png" alt="theme" title="theme"><br>这时候主题已经换了，主题里面的修改项自行查阅一下，很多都有注释</p><h2 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a><strong>上传到github</strong></h2><p>没有github账号的，自行注册一个【很少人没有吧】</p><p><img src="http://imgs.cansolve.cn/201812110003.png" alt="theme" title="theme"><br>完了继续下一步选择一个主题</p><p><img src="http://imgs.cansolve.cn/201812110004.jpg" alt="theme" title="theme"><br>结束访问 xxxxx.github.io  会看到上面一样的页面</p><p>修改文件<br><img src="http://imgs.cansolve.cn/201812110005.png" alt="theme" title="theme"></p><pre><code>注意！！！冒号的后面一定一定一定要有一个空格！！</code></pre><p>开始部署</p><pre><code>npm install hexo-deployer-git --save//先装个插件hexo d  //  部署的命令</code></pre><p>网上有的教程说需要账号密码，我这边没遇到，所以就不方便截图了</p><h2 id="发布第一篇博客"><a href="#发布第一篇博客" class="headerlink" title="发布第一篇博客"></a><strong>发布第一篇博客</strong></h2><p>根目录下输入 ：</p><pre><code>hexo new &quot;postName&quot;//hexo n 也可以 //你自己的博客名称，名为postName.md的文件会建在目//录/blog/source/_posts下。</code></pre><p>文章编辑完成后，终端在根目录文件夹下，执行如下命令来发布:</p><pre><code>hexo g //生成静态页面，类似于打个包hexo d //发布</code></pre><p>这样就可以发布咯</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Claudia&quot;&gt;&lt;a href=&quot;#Claudia&quot; class=&quot;headerlink&quot; title=&quot;Claudia&quot;&gt;&lt;/a&gt;Claudia&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://haojen.github.io/Claudia-theme-bl
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;这是我第一次写这种类型的博客，也不叫什么博客，纯粹个人一些踩坑过程罢了，原先弄的前后端分离的开发流程想想太
       
     
     </summary>
     
     
-  </entry>
-  
-  <entry>
-    <title>daily5</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily5/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily5/</id>
-    <published>2018-12-10T07:06:17.000Z</published>
-    <updated>2018-12-10T07:06:17.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>daily4</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily4/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily4/</id>
-    <published>2018-12-10T07:06:14.000Z</published>
-    <updated>2018-12-10T07:06:14.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>daily3</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily3/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily3/</id>
-    <published>2018-12-10T07:06:08.000Z</published>
-    <updated>2018-12-10T07:06:08.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>daily2</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily2/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily2/</id>
-    <published>2018-12-10T07:06:02.000Z</published>
-    <updated>2018-12-10T11:18:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://imgs.cansolve.cn/bg1.jpg" alt="cover"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;http://imgs.cansolve.cn/bg1.jpg&quot; alt=&quot;cover&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1</title>
-    <link href="http://www.cansolve.cn/2018/12/10/daily1/"/>
-    <id>http://www.cansolve.cn/2018/12/10/daily1/</id>
-    <published>2018-12-10T02:56:53.000Z</published>
-    <updated>2018-12-10T09:12:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
+      <category term="个人" scheme="http://www.cansolve.cn/tags/%E4%B8%AA%E4%BA%BA/"/>
     
   </entry>
   
