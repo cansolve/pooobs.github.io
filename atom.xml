@@ -42,7 +42,7 @@
     <link href="http://www.cansolve.cn/2018/12/10/daily8/"/>
     <id>http://www.cansolve.cn/2018/12/10/daily8/</id>
     <published>2018-12-10T09:28:29.000Z</published>
-    <updated>2018-12-10T09:51:54.000Z</updated>
+    <updated>2018-12-12T02:11:41.000Z</updated>
     
     <content type="html"><![CDATA[<p>前言—<br>每次写博客之前都喜欢做一些科普啊巴拉巴拉的，写之前还想分析一波Hexo和jekyll，掰扯掰扯github，漫谈一下gitblog啥的。讲道理，我这个人比较浮躁，写那些乱七八糟的知识简直就是折磨，所以这次—不写了！！直接开搞。有啥问题别找我。</p><p>用Hexo在本地搭建一个博客<br>安装Hexo<br>安装nodejs</p><p><a href="http://nodejs.cn/" target="_blank" rel="noopener">http://nodejs.cn/</a> 丢个链接自己装，傻瓜式安装</p><p>安装git</p><p><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a> 安装毫无技术含量</p><p>使用npm安装Hexo</p><p>   npm install -g hexo-cli<br>  //一键搞定<br>1<br>2<br>1<br>2<br>快速开始<br>1 随便找个文件夹下打开终端,输入</p><pre><code>hexo i blog //init的缩写 blog是项目名cd blog //切换到站点根目录hexo g //generetor的缩写hexo s //server的缩写</code></pre><p>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>2 打开浏览器输入localhost:4000查看：</p>]]></content>
     
@@ -56,6 +56,8 @@
     
     </summary>
     
+    
+      <category term="前端" scheme="http://www.cansolve.cn/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
