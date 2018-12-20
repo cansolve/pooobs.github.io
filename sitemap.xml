@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cansolve.github.io/links/index.html</loc>
+    
+    <lastmod>2018-12-20T08:40:36.844Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cansolve.github.io/2018/10/07/daily9/</loc>
     
     <lastmod>2018-12-20T08:19:53.780Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://cansolve.github.io/2018/09/22/daily5/</loc>
     
     <lastmod>2018-12-20T02:54:25.567Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cansolve.github.io/links/index.html</loc>
-    
-    <lastmod>2018-12-20T02:53:48.552Z</lastmod>
     
   </url>
   
