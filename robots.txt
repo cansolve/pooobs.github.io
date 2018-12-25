@@ -12,4 +12,5 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://cansolve.github.io/sitemap.xml
+Sitemap: https://cansolve.cn/sitemap.xml
 Sitemap: https://cansolve.github.io/baidusitemap.xml
