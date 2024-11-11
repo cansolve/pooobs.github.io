@@ -6,16 +6,14 @@ import { blogTheme } from './blog-theme'
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
-// const base = process.env.GITHUB_ACTIONS === 'true'
-//   ? '/vitepress-blog-sugar-template/'
-//   : '/'
+const base = 'main.pooobs.com'
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 继承博客主题(占靈星語)
   extends: blogTheme,
-  // base,
+  base,
   lang: 'zh-cn',
   title: '占靈星語',
   description: '專業的姻緣占卜平台，為您提供準確的婚姻緣分預測。通過生日時刻、星座愛情分析等多種方式，幫助您洞察未來的愛情與婚姻走向。立即體驗在線姻緣測算，瞭解您與另一半的緣分深淺，找到屬於您的愛情歸宿。',
