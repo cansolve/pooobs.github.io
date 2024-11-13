@@ -1,5 +1,4 @@
 ---
-sticky: 3
 description: 兄弟宮
 descriptionHTML: '
 <span style="color:var(--description-font-color);">兄弟宮位於左右眉毛的位置，通常從眉毛的形狀、濃淡、長短等特徵來分析，代表一個人和兄弟姐妹以及朋友、同事之間的關係，也可以反映出人際關係的狀況。兄弟宮的狀態好壞，會影響到一個人是否容易得到身邊人的支持與幫助，或是人際交往的和諧度。</span>'

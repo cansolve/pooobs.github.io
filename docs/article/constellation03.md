@@ -5,7 +5,6 @@ descriptionHTML: '
 cover: '/imgs/scorpion.jpg'
 tag:
  - 星座
-top: 1
 sidebar: false
 ---
 
